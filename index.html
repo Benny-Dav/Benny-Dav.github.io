@@ -6,106 +6,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benedicta Davour</title>
     <script src="https://kit.fontawesome.com/5b822d06a5.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body class="p-0 m-0 ">
-    <header class="h-[100vh] bg-[#fffacd]">
-        <nav class="h-[20%] flex flex row p-[5px] ">
-            <a class="mr-[10%]" href="#">LOGO</a>
-            <ul class="flex flex row justify-between w-[60%]  m-[]">
+<body>
+    <header id="home">
+        <nav>
+            <a class="nav-logo" href="HOME">AMI</a>
+            <ul class="nav-ul">
 
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">SKILLS</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">PROJECTS</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li class="nav-item"><a href="#home">HOME</a></li>
+                <li class="nav-item"><a href="#">ABOUT</a></li>
+                <li class="nav-item"><a href="#">SKILLS</a></li>
+                <li class="nav-item"><a href="#">SERVICES</a></li>
+                <li class="nav-item"><a href="#">PROJECTS</a></li>
+                <li class="nav-item"><a href="#">CONTACT</a></li>
 
             </ul>
         </nav>
-        <div class="w-[50%]"><!--hero text-->
-            <div class="ml-[13%] mt-[13%]">
+        <!-- <div class="hero">
+            <div class="hero-text">
                 <h3>HELLO! I AM</h3>
-                <h1 class="text-[60px] font-bold">Bened<span class="text-[#eb2d53]">i</span>cta Davour</h1>
+                <h1>Bened<span>i</span>cta Davour</h1>
             </div>
-            <div class=" w-[25%] ml-[13%] mt-[3em] w-[50%] flex flex row justify-between">
-                <button class=" p-[15px] mr-[2em] bg-[#eb2d53] font-extrabold">HIRE ME</button>
-                <button class=" p-[15px] bg-[#eb2d53] font-extrabold">DOWNLOAD MY CV</button>
+            <div class="hero-buttons">
+                <button>HIRE ME</button>
+                <button>DOWNLOAD MY CV</button>
             </div>
-        </div>
-       
+        </div> -->
+
 
     </header>
-    <section class="h-[100vh]">
-        <div class="h-[20%] w-[100%] bg-[white] flex flex row justify-evenly mt-[1em]">
-            <!--extra info with icons section-->
-            <div class="w-[20%] flex flex row justify-between"><!--ICON 1-->
+    <section class="about-page">
+        <div class="carousel">
+            
+            <div class="carousel-item1">
                 <div>
-                    <i class="fa fa-briefcase text-[60px] ml-[20%] mt-[25%] bg-[#eb2d53] rounded-[50%] p-[10px]"></i>
+                    <i class="fa fa-briefcase"></i>
                 </div>
-                <div class="w-[60%] mt-[1em] mb-[1em]">
-                    <h2 class="text-[30px] font-bold">3</h2>
-                    <h4>PROJECTS COMPLETE</h4>
+                <div class="carousel-item-text">
+                    <h2 class="carousel-h2">3</h2>
+                    <h4 class="carousel-h4">PROJECTS COMPLETE</h4>
                 </div>
             </div>
-            <div class="w-[20%] flex flex row justify-between"><!--ICON 2-->
+            <div class="carousel-item1">
                 <div>
-                    <i class="fa fa-smile-o text-[60px] ml-[20%] mt-[25%] bg-[#eb2d53] rounded-[50%] p-[10px]"></i>
+                    <i class="fa fa-smile-o"></i>
                 </div>
-                <div class="w-[60%] mt-[1em] mb-[1em]">
-                    <h2 class="text-[30px] font-bold">3</h2>
-                    <h4>HAPPY CLIENTS</h4>
+                <div class="carousel-item-text">
+                    <h2 class="carousel-h2">3</h2>
+                    <h4 class="carousel-h4">HAPPY CLIENTS</h4>
                 </div>
             </div>
-            <div class="w-[20%] flex flex row justify-between"><!--ICON 3-->
+            <div class="carousel-item1">
                 <div>
-                    <i class="fa fa-line-chart text-[60px] ml-[20%] mt-[25%] bg-[#eb2d53] rounded-[50%] p-[10px]"></i>
+                    <i class="fa fa-line-chart"></i>
                 </div>
-                <div class="w-[60%] mt-[1em] mb-[1em]">
-                    <h2 class="text-[30px] font-bold">2</h2>
-                    <h4>YEARS EXPERIENCE</h4>
+                <div class="carousel-item-text">
+                    <h2 class="carousel-h2">2</h2>
+                    <h4 class="carousel-h4">YEARS EXPERIENCE</h4>
                 </div>
             </div>
         </div>
 
-        <div class="bg-[#fffacd] h-[80%] flex flex row justify-between"> <!--Container of img and text of about page-->
-            <div class="w-[30%] border-[green] border-[1px] h-[100%] ml-[8em]"><!--Container of img-->
+        <div class="about-section"> 
+            <div class="about-image">
 
             </div>
-            <div class="w-[60%] ml-[5%] pt-[5em]"><!--Container of text-->
-                <p class="text-[20px] text-left font-bold mb-[1em]">MY INTRO</p>
-                <h2 class="text-[40px] mb-[1em]">About Me</h2>
+            <div class="about-text">
+                <p>MY INTRO</p>
+                <h2>About Me</h2>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
                     paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
 
             </div>
         </div>
     </section>
-    <section class="h-[100vh] p-[5px]"><!--Skills Section-->
-        <p CLASS="text-[20px] font-bold text-center mt-[1em]">SKILLS</p>
-        <h2 class="text-[40px] mt-[0.5em] text-center">My Skills</h2>
-        <p class="text-center mt-[1em]">Far far away, behind the word mountains, far from the countries Vokalia and
+    <!-- <section class="skills-section">
+        <p>SKILLS</p>
+        <h2 class="skills-section-h2">My Skills</h2>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and
             Consonantia
         </p>
-        <div class="w-[80%] h-[40%] ml-[10%] mt-[3em] ">
-            <!--Container of skills grid-->
-            <div class="flex flex row justify-between w-[100%] h-[100%]"><!--Row 1 of skills-->
-                <div class="w-[30%] mr-[1em] bg-[#eb2d53]">
+        <div class="skills-grid ">
+           
+            <div class="skills-row-1">
+                <div class="skill-1">
                     <p>HTML</p>
-                    <i class="fa fa-html5 text-[100px] ml-[35%] mt-[22%]"></i>
+                    <i class="fa fa-html5"></i>
                 </div>
-                <div class="w-[30%] mr-[1em] bg-[#eb2d53]">
+                <div class="skill-1">
                     <p>CSS</p>
                     <i class="fa fa-css3 text-[100px] ml-[35%] mt-[22%]"></i>
                 </div>
-                <div class="w-[30%] mr-[1em] bg-[#eb2d53]">
+                <div class="skill-1">
                     <p>javascript</p>
                     <img src="../My-Portfolio/assets/images/jsicon.png" alt="">
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 </body>
 
 </html>
