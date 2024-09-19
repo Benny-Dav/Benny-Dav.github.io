@@ -5,7 +5,7 @@
 
 header {
     height: 100vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url(../assets/images/hero-img.jpeg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../assets/images/hero5.jpeg);
     background-size:cover;
     background-position:top;
 }
@@ -71,6 +71,10 @@ nav {
     color:white;
 }
 
+span{
+    color:rgb(255, 2, 44);
+}
+
 .download-btn {
     padding: 15px;
     font-size: 15px;
@@ -93,16 +97,32 @@ nav {
 
 .about-text {
     width: 40%;
-    padding-top: 6em;
+    margin-top:15%;
     line-height: 2em;
 }
 
 .about-text h2 {
-    margin-top: 1em;
+    font-size: 40px;
+    margin-top: 0.5em;
+    text-align: center;
     margin-bottom: 1em;
 }
 
-
+.about-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about-img{
+    border-radius:15px;
+    /* border:2px solid rgb(255, 2, 44); */
+    box-shadow:2px 2px 2px rgb(255, 2, 44);
+    height:80%;
+    margin-top:5%;
+    width:30%;
+    background-image: url(../assets/images/hero6.jpeg);
+    background-size: cover;
+}
 .skills-section {
     height: 100vh;
     padding: 5px;
@@ -146,6 +166,9 @@ nav {
     background-color: white;
     border-radius: 20px;
     box-shadow: 5px 5px 5px grey;
+}
+.skill-1:hover{
+     
 }
 
 .skill-2 {
